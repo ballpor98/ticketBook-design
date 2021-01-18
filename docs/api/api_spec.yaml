@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: ticketBook API Specification
+  x-unofficialSpec: false
+  x-nullable: true
+servers:
+  - url: 'https://localhost:8080/{basePath}'
+    description: DEV
+    variables:
+      basePath:
+        default: api/v1
+x-tagGroups:
+  - name: API
+    tags:
+      - attendee
+tags:
+  - name: attendee
+    x-displayName: Attendee API
+paths:
+  /attendee:
+    get:
+      tags:
+        - attendee
+      summary: Get attendee
+      description: ''
+      operationId: test
+      responses:
+        '200':
+          description: Success
