@@ -15,19 +15,31 @@ x-tagGroups:
 - name: API
   tags:
   - attendee
+  - event
+  - ticket
+  - order
+  - payment
   
 tags:
 - name: "attendee"
   x-displayName: "Attendee API"
+- name: "event"
+  x-displayName: "Event API"
+- name: "ticket"
+  x-displayName: "Ticket API"
+- name: "order"
+  x-displayName: "Order API"
+- name: "payment"
+  x-displayName: "Payment API"
     
 paths:
-  /attendee:
+  /attendee/{id}:
     get:
       tags:
       - "attendee"
-      summary: "Get attendee"
+      summary: "Get attendee by id"
       description: ""
-      operationId: "test"
+      operationId: "get_attendee"
       responses:
         "200":
           description: "Success"
