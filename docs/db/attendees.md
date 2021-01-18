@@ -34,7 +34,6 @@
         "eventId": "bdd8f769-ad4f-4be1-8dbd-d759043662c5",
         "orderId": "80c7c98b-a0c7-460b-829b-6a210c4d3a7b",
         "ticket":{ 
-            "UID": "e381c848-4211-4249-a780-b380dd550b2e",
             "name": "early bird",
             "seat": "A1"
         },
