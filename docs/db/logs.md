@@ -4,23 +4,30 @@
 
 ```javascript
     {
-        "UID": string,
-        "createdDt": datetime
+        "rqId": UUID4,
+        "rqDt": datetime,
+        "request": json,
+        "response": json
+        "actions":[{
+            "action": string,
+            "request": json,
+            "response": json
+        }]
     }
 ```
-
-## Properties
-
-| Properties ||
-|-|-|
-| UID | **UUID4** |
-| createdDt  | **datetime** |
 
 ## Example
 
 ```javascript
     {
-        "UID": "B8D802CF-DD8F-4E61-B15C-9E6C5844CCBB",
-        "createdDt": "2021-01-18T23:59:59+07:00"
+        "rqId": "f821ebc7-0032-44fd-8dd8-c3f7e7e3e367",
+        "rqDt": "2021-01-18T23:59:59+07:00",
+        "request": {},
+        "response": {},
+        "actions"[{
+            "action": "payment_paypal"
+            "request": {},
+            "response": {}
+        }]
     }
 ```
