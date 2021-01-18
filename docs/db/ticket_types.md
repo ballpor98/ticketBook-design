@@ -1,4 +1,4 @@
-# tickets collection
+# ticketTypes collection
 
 ## Data representation
 

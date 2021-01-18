@@ -39,6 +39,6 @@ API Documentation [Here](https://htmlpreview.github.io/?https://github.com/ballp
 
 [Attendees collection](./docs/db/attendees.md)  
 [Event collection](./docs/db/event.md)  
-[Tickets collection](./docs/db/tickets.md)  
+[Tickets collection](./docs/db/ticket_types.md)  
 [Orders collection](./docs/db/orders.md)  
 [Logs collection](./docs/db/logs.md)  
