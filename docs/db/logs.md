@@ -1,4 +1,4 @@
-# Attendees collection
+# Logs collection
 
 ## Data representation
 

@@ -1,4 +1,4 @@
-# Attendees collection
+# Orders collection
 
 ## Data representation
 

@@ -20,18 +20,25 @@ Expected Output
 * API Documentation
 * Database Design
 
-## Tech stack
+## Result
+
+### Tech stack
 
 ![alt text](https://raw.githubusercontent.com/ballpor98/ticketBook-design/cb8706b8611b2c2985498c7e0d87b273f3ab4ced/assets/tech_stack.jpeg "tech stack")
 
-## System Diagram
+### System Diagram
 
 ![alt text](https://raw.githubusercontent.com/ballpor98/ticketBook-design/cb8706b8611b2c2985498c7e0d87b273f3ab4ced/assets/system_architecture.jpeg "tech stack")
 
-## API Documentation
+### API Documentation
 
-API Documentation [Here](https://htmlpreview.github.io/?https://github.com/ballpor98/ticketBook-design/blob/main/docs/api/api_spec.html)
+API Documentation [Here](https://htmlpreview.github.io/?https://github.com/ballpor98/ticketBook-design/blob/main/docs/api/api_spec.html)  
+ `*` **Not finish**
 
-## Database Design
+### Database Design
 
-[Attendees collection](./docs/db/attendees.md)
+[Attendees collection](./docs/db/attendees.md)  
+[Event collection](./docs/db/event.md)  
+[Tickets collection](./docs/db/tickets.md)  
+[Orders collection](./docs/db/orders.md)  
+[Logs collection](./docs/db/logs.md)  
