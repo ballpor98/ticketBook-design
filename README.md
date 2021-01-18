@@ -28,7 +28,8 @@ Expected Output
 
 ### System Diagram
 
-![alt text](https://raw.githubusercontent.com/ballpor98/ticketBook-design/cb8706b8611b2c2985498c7e0d87b273f3ab4ced/assets/system_architecture.jpeg "tech stack")
+![alt text](https://raw.githubusercontent.com/ballpor98/ticketBook-design/cb8706b8611b2c2985498c7e0d87b273f3ab4ced/assets/system_architecture.jpeg "tech stack")  
+`*` **Not finish**
 
 ### API Documentation
 
@@ -38,7 +39,7 @@ API Documentation [Here](https://htmlpreview.github.io/?https://github.com/ballp
 ### Database Design
 
 [Attendees collection](./docs/db/attendees.md)  
-[Event collection](./docs/db/event.md)  
+[Events collection](./docs/db/event.md)  
 [Tickets collection](./docs/db/ticket_types.md)  
 [Orders collection](./docs/db/orders.md)  
 [Logs collection](./docs/db/logs.md)  
